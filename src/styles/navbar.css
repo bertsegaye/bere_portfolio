@@ -1,0 +1,13 @@
+.profile {
+  margin-top: -90px;
+  background: linear-gradient(to right, rgb(201, 207, 215), rgb(243, 243, 228));
+}
+.page-lists {
+  background-color: rgb(247, 247, 244, 0.2);
+}
+
+.page-lists li {
+  padding: 10px;
+  width: 20%;
+  text-align: center;
+}

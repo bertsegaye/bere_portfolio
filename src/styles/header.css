@@ -1,0 +1,30 @@
+.header {
+  background: linear-gradient(to right, #7aadbe 0%, #533c47 100%);
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+.header div {
+  display: inline-flex;
+}
+.head-text {
+  width: 50%;
+  height: auto;
+}
+.prof-img {
+  width: 30%;
+  height: auto;
+  float: right;
+}
+.profile {
+  border-radius: 70%;
+  width: 20%;
+  margin-right: -120rem;
+}
+@media (max-width: 600px) {
+  .header {
+    background: linear-gradient(to right, #96a9af 10%, #292627 90%);
+    flex-direction: column;
+  }
+}
