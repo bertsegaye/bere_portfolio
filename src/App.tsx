@@ -15,7 +15,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="mt-20">
-      <BrowserRouter>
+      <BrowserRouter basename="/bere_portfolio">
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Home />} />
