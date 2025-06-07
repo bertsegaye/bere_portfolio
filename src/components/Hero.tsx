@@ -1,5 +1,5 @@
 // src/components/Hero.tsx
-import React from "react";
+//import React from "react";
 
 const Hero = () => {
   return (
